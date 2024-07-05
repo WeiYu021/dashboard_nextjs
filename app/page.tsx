@@ -7,16 +7,8 @@ import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
-  // const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
   return (
     <main className="flex min-h-screen flex-col p-6">
-      {/* <div>
-        <ul>
-          {names.map((name, i) => (<li key={i}>{name}</li>)
-            
-          )}
-        </ul>
-      </div> */}
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo />
       </div>
