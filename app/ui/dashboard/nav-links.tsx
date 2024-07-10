@@ -1,4 +1,7 @@
 'use client'
+// usePathname 是一个 Next.js 提供的钩子，它只能在客户端使用，
+// 因为它依赖于浏览器的 window.location.pathname。如果这段代码在服务器端执行，
+// usePathname 将无法获取到正确的路径名，因为服务器端没有访问浏览器API的能力。
 
 import {
   UserGroupIcon,
